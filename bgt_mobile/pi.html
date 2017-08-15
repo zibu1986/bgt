@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="screen-orientation" content="portrait">
+		<meta name="x5-orientation" content="portrait">
+		<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0">
+        <meta name="format-detection" content="telephone=no">
+        <link rel="stylesheet" type="text/css" href="css/base.css"/>
+        <link rel="stylesheet" type="text/css" href="pi/pi.css"/>
+        <script src="js/rem.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<div id="head" class="clearfix">
+			<a class="fl" href="javascript:history.back(-1)"></a>
+			<p class="fl">个人信息</p>
+			<p class="fr headp2">退出登陆</p>
+		</div>
+		<ul id="content" >
+			<li class="clearfix">
+				<p class="fl">头像</p>
+				<img class="fr" src="img/pifacial.png"/>
+			</li>
+			<li class="clearfix">
+				<p class="fl">昵称</p>
+				<input class="fr" value="依依不饶人"></input>
+			</li>
+			<li class="clearfix">
+				<p class="fl">性别</p>
+				<!--<img class="fr" src="img/piconr.png"/>-->
+				<select class="fr">
+					<option>女</option>
+					<option>男</option>
+				</select>
+			</li>
+			<li class="clearfix">
+				<p class="fl">手机号码</p>
+				<p class="fr">已验证</p>
+				<p class="fr">15860344886</p>
+			</li>
+			
+			<li class="clearfix">
+				<p class="fl">设置密码</p>
+				<img class="fr" src="img/conring.png" />
+			</li>
+			<li class="clearfix">
+				<p class="fl">会员等级</p>
+				<img class="fr" src="img/piconr.png"/>
+				<p class="fr">普通会员</p>
+			</li>
+		</ul>
+		<div id="">
+			<button>保存</button>
+		</div>
+		<input type="file" accept="image/*" capture="camera">
+    <input type="file" accept="video/*" capture="camcorder">
+    <input type="file" accept="audio/*" capture="microphone">
+	</body>
+</html>

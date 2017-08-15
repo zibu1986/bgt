@@ -1,0 +1,60 @@
+/*顶头个人信息*/
+#head{width: 100%;
+		height: 1rem;
+		background-image: url(../img/perbg.png);
+       background-size: 3.75rem 1rem;
+        }
+#head div:nth-of-type(1) a{display: block;
+		font-size: 12px;
+		height: 15px;
+		line-height: 15px;
+		background-image: url(../img/perset.png);
+		background-repeat: no-repeat;
+		background-size: 15px;
+		color: white;
+		margin-right: 0.15rem;
+		margin-top: 0.12rem;
+		padding-left: 20px;
+		
+		}
+/*个人信息列表*/
+
+		
+		
+/*功能列表*/
+#content li{border-bottom: solid  1px  #EEEEEE;
+				width: 92%;
+				padding-top:0.09rem;
+				padding-bottom: 0.09rem;
+				padding-left: 4%;
+				padding-right: 4%;
+              }  
+.perlist{display: block;
+         width: 100%;
+         height: 0.27rem;
+		 background-image: url(../img/perjtou.png);
+		 background-repeat: no-repeat;
+		 background-size:0.09rem 0.15rem;
+		 background-position:100%  center ;
+		}
+.perlist img{width: 27px;
+             height: 27px;
+             display: block;
+             float: left;}
+.perlist p{font-size: 15px;line-height: 27px;padding-left: 0.12rem; color: #333;float: left;}
+
+/*底部定位*/
+.homehome{display: block;
+	     background-image: url(../img/perhome.png);
+          background-repeat: no-repeat; 
+          background-size: 0.18rem   0.19rem; 
+          background-position-x: 50%;
+          height: 0.31rem;
+          width: 1.86rem;}
+.homeperson{display: block;
+	      background-image: url(../img/perperson.png);
+          background-repeat: no-repeat; 
+          background-size: 0.18rem   0.19rem; 
+          background-position-x: 50%;
+          height: 0.31rem;
+          width: 1.86rem;}

@@ -1,0 +1,138 @@
+/* by manihome time of 2015.04 */
+@charset "utf-8";
+*{margin:0;padding:0;font-family: "微软雅黑";color: #000000;}
+a,
+input,
+button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+ul,ol,li{list-style:none;}
+em{font-style:normal;}
+img{border:none;}
+input,img{vertical-align:middle;}
+q:before, q:after{content:'' }
+.fn-clear:after {visibility:hidden;display: block;font-size: 0;content: " ";clear: both;height: 0;}
+.fn-clear{*zoom:1;}
+/*a{color:#666;text-decoration:none;-webkit-tap-highlight-color:rgba(0,0,0,0);*/
+/*a:active{color:#333;-webkit-tap-highlight-color:rgba(0,0,0,0);}*/
+section,aside,header,footer,hgroup,article{display:block}
+label{cursor:pointer;}
+a:link, a:visited {text-decoration:none;}
+input,button,select,textarea{outline:none;} 
+textarea{resize:none;}
+
+article, aside, footer, header, hgroup, nav, section, figure, figcaption{display:block;} 
+h1, h2, h3, h4, h5, h6, th, td, table, input, button, select, textarea, sub{font-size:1em;}
+body, input, button, select, textarea, sub{font-family:Arial,sans-serif;}
+em, cite, address, optgroup {font-style:normal;}
+kbd, samp, code {font-family:monospace;}
+
+img, input, button, select, textarea {vertical-align:middle;}
+ul, ol {list-style:none;}
+img, fieldset {border:0;}
+abbr, acronym {cursor:help; border-bottom:1px dotted black;}
+table {width:100%;border-spacing:0;border:0}
+table th, table td {border:0;}
+legend, hr {overflow:hidden;position:absolute;top:0;left:0;}
+legend, hr, caption {visibility:hidden;font-size:0;width:0;height:0;line-height:0;}
+
+/*----------------------------------------------------------------------------------------------------*/
+
+
+
+
+input,textarea,select{/*-webkit-appearance:none;appearance:none;*/border-radius:0;-webkit-border-radius:0;font-family:"microsoft yahei"}
+.main{max-width:640px;min-width:320px;margin:0 auto;padding-bottom:50px;}
+
+/*浮动*/
+.fl{float:left;}
+.fr{float:right;}
+/*居中*/
+.texC{text-align:center;}
+.texL{text-align:left;}
+.texR{text-align:right;}
+.texJ{text-align:justify;}
+/*color*/
+.cfff{color:#fff;}
+.c333{color:#333;}
+.c666{color:#666;}
+.c999{color:#999;}
+.c2eb{color:#2eb8e6;}
+.c3bb4{color:#3bb4e3;}
+.c7f7f{color:#7f7f7f;}
+/*bg*/
+.bgfff{background-color:#fff;}
+.bgeee{background-color:#eee;}
+.bg333{background-color:#333;}
+.bg666{background-color:#666;}
+.bg999{background-color:#999;}
+.bg3bb4{background:#3bb4e3;}
+/*清除浮动*/
+.clearfix:before,.clearfix:after{content:".";display:block;visibility:hidden;height:0;line-height:0;font-size:0;}
+.clearfix:after{clear:both;}
+.clearfix{zoom:1;}
+.clear{overflow:hidden;}
+/*----------------------------------------------------------------------------------------------------*/
+
+.bold{font-weight:bold;}
+/*margin*/
+.mA{margin:0 auto;}
+.mT5{margin-top:5px;}
+.mB5{margin-bottom:5px;}
+.mT10{margin-top:10px;}
+.mB10{margin-bottom:10px;}
+.mT20{margin-top:20px;}
+.mB20{margin-bottom:20px;}
+.mT30{margin-top:30px;}
+.mB30{margin-bottom:30px;}
+.mT40{margin-top:40px;}
+.mB40{margin-bottom:40px;}
+.mT50{margin-top:50px;}
+.mB50{margin-bottom:50px;}
+.mT80{margin-top:80px;}
+.mT15{margin-top:15px;}
+/*padding*/
+.pL5{padding-left:5%;}
+.pR5{padding-right:5%;}
+.pL10{padding-left:10%;}
+.pR10{padding-right:10%;}
+.pT10{padding-top:10px;}
+.pB10{padding-bottom:10px;}
+.pT20{padding-top:20px;}
+.pB20{padding-bottom:20px;}
+.pB30{padding-bottom:30px;}
+.pB40{padding-bottom:40px;}
+.pB50{padding-bottom:50px;}
+/*width*/
+.wd100{width:100%;}
+.wd90{width:90%;}
+.wd80{width:80%;}
+.wd75{width:77%;}
+.wd70{width:70%;}
+.wd60{width:60%;}
+.wd50{width:50%;}
+.wd40{width:40%;}
+.wd35{width:35%;}
+.wd33{width:33%;}
+.wd30{width:30%;}
+.wd25{width:25%;}
+.wd20{width:20%;}
+.wd10{width:10%;}
+/*border*/
+.bor0{border:0;}
+.borN{border:none;}
+.borAll{border:1px solid #d2d2d2;}
+.borB{border-bottom:1px solid #d2d2d2;}
+.borT{border-top:1px solid #d2d2d2;}
+/*display*/
+.disB{display:block;}
+.disIB{display:inline-block;}
+.hide{display:none;}
+
+/*footer*/
+.footer{width:100%;height:48px;background:#f0f0f0;position:fixed;bottom:0px;left:0px;}
+.footer img{margin-top:2px;}
+.footer .active .img_1{display:none;}
+.footer .hidden .img_2{display:none;}
+.footer .active h3{color:#5fc0e6;}
